@@ -1,0 +1,4 @@
+通常一个切片操作要提供三个参数 [start_index:  stop_index:  step]  
+start_index是切片的起始位置
+stop_index是切片的结束位置（不包括）
+step可以不提供，默认值是1，步长值不能为0，不然会报错ValueError。
